@@ -23,7 +23,7 @@ const InitialInputHeight = messageInput.scrollHeight;
 const chatHistory = [];
 
 //API setup
-const API_KEY = "AIzaSyBW00k4wJ3VTsLO63JDvxRmEQ_chexp-J4";
+const API_KEY = //You wil user your own api key its free :);
  const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
 
 //generate bot response using API
@@ -305,3 +305,4 @@ document.querySelector("#file-upload").addEventListener("click", () => fileInput
 chatbotToggler.addEventListener("click", () => document.body.classList.toggle
 ("show-chatbot"));
 closeChatbot.addEventListener("click", () => document.body.classList.remove("show-chatbot"));
+
